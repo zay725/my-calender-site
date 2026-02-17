@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.calender{
+    width:300px;
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+.header{
+    display:flex;
+    justfy-content:space-between;
+    align-items:center;
+}
+
+.weekdays, #days{
+    display:grid;
+    grid-template-colums: repeat(7,1fr);
+    list-style:none;
+    padding:0;
+}
+
+.weekdays li{
+    font-weght:bold;
+}
+
+#days li{
+    Padding:8px;
+    text-align:center;
+}
